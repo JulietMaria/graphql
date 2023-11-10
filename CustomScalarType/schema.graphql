@@ -1,0 +1,10 @@
+scalar Date
+
+type Query {
+  task: Task
+}
+
+type Task {
+  title: String
+  dueDate: Date
+}
